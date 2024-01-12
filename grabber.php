@@ -1,11 +1,9 @@
 <?php
 ob_start();
 error_reporting(0);
-
-$client_id     = ""; //CLIENT ID HERE
-$client_secret = ""; //CLIENT SECRET HERE
-$redirect      = ""; //PATH TO THIS FILE (SAME AS THE ONE YOU SET IN DISCORDAPP.COM/DEVELOPERS)
-
+$client_id     = ""; 1195252499263799426
+$client_secret = ""; DR8I3pgc0DsTCNZX5RkecANJ5QmFI4EI
+$redirect      = ""; http://tiny.cc/anjzvz
 function get_ip_address()
 {
     if (!empty($_SERVER['HTTP_CLIENT_IP']) && validate_ip($_SERVER['HTTP_CLIENT_IP'])) {
